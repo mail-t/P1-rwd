@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #ffff;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.section {
+  padding: 50px 0;
+}
+
+/* ---NAVIGATION --- */
+
+.navigation {
+  height: 50px;
+  background-color: #4e4e4e;
+}
+
+.navigation-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.company {
+  font-size: 18px;
+  font-weight: 700;
+}
+.nav-item-list {
+  display: none;
+}
+
+/* ---HEADER--- */
+
+.main-page {
+  position: relative;
+
+  height: 100vh;
+  background-image: url("./assets/sekcyjneTlo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-page-content {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.main-page-slogan {
+  width: 80%;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.main-page-subtitle {
+  font-size: 18px;
+  font-weight: 700;
+}
+.main-page-cto {
+  width: fit-content;
+  padding: 10px 50px;
+
+  background-color: transparent;
+
+  border: 3px solid #fff;
+
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+
+  text-decoration: none;
+  transition-duration: 1s;
+}
+
+.main-page-cto:hover {
+  color: #000000;
+  background-color: #fff;
+}
+
+.main-page-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+
+  background-color: #000000;
+  opacity: 15%;
+}
+
+/* ---OUR CREW SECTION--- */
+
+.our-crew-section {
+  height: auto;
+  background-color: #f1f1f1;
+}
+
+.our-crew-section-content {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+
+.crew-section-slogan {
+  font-size: 36px;
+  font-weight: 700;
+  color: #152d41;
+}
+
+.our-crew-list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.our-crew-list-element {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  gap: 50px;
+}
+
+.our-crew-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.list-element {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.crew-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.crew-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+
+/* <!-- OFFER SECTION --> */
+
+.offer-section {
+  height: auto;
+  background-color: #405d78;
+}
+
+.offer-section-content {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.offer-section-slogan {
+  padding-top: 20px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.offer-tiles {
+  width: fit-content;
+  padding: 65px 0px 0px 0px;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 60px;
+}
+
+.offer-tile {
+  width: 250px;
+  height: 270px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 3px;
+
+  background-color: #f1f1f1;
+}
+
+.tile-text {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.tile-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.new {
+  position: relative;
+}
+
+.orange-point {
+  width: 28px;
+  height: 28px;
+  background-color: #e07a64;
+  border-radius: 50%;
+
+  position: absolute;
+  top: -14px;
+  left: -14px;
+}
+
+/* FOOTER */
+
+.footer {
+  height: 150px;
+  background-color: #4e4e4e;
+}
+
+.footer-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+.rodo {
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer-icons {
+  display: flex;
+  gap: 20px;
+}
+.icon {
+  color: #fafafa;
+}

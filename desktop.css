@@ -1,0 +1,68 @@
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 960px;
+  }
+  /* ---NAVIGATION --- */
+
+  @media (hover: hover) {
+    .nav-item:hover {
+      cursor: pointer;
+    }
+    .not-allowed:hover {
+      cursor: not-allowed;
+    }
+  }
+
+  /* ---HEADER--- */
+
+  @media (hover: hover) {
+    .main-page-cto:hover {
+      cursor: pointer;
+    }
+  }
+
+  /* ---OUR CREW SECTION--- */
+
+  .our-crew-section-content {
+    width: 960px;
+    align-items: start;
+  }
+
+  .our-crew-list-element {
+    flex-direction: row;
+  }
+
+  .our-crew-list-element:nth-of-type(even) {
+    flex-direction: row-reverse;
+    text-align: end;
+  }
+
+  /* <!-- OFFER SECTION --> */
+
+  .offer-section-slogan {
+    align-self: start;
+  }
+
+  .offer-tiles {
+    grid-template-columns: auto auto auto;
+    transition: transform 1s linear;
+  }
+  .offer-tile {
+    transition: transform 0.5s linear;
+  }
+
+  @media (hover: hover) {
+    .offer-tile:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+  }
+
+  .orange-point {
+    width: 20px;
+    height: 20px;
+
+    top: -10px;
+    left: -10px;
+  }
+}
